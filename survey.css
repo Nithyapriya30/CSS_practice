@@ -1,0 +1,15 @@
+#title{
+color:GREEN;
+  font: Verdana;
+  font-size: 55px;
+  background-color:white;
+  text-align:center;
+}
+body{ background-color:violet;
+  text-align:center;
+}
+#description{
+  background-color:blue;
+  font-size: 30px;
+  text-align:center;
+}

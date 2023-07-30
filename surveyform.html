@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="survey.css">
+    <title>Survey Form</title>
+    </head>
+    <body>
+      <h1 id=title>SURVEY FORM</h1>
+      <p id=description>survey form done by nithya</p>
+      <form id=survey-form>
+        <label id="name-label" foe="name">Name</label>
+  <input id="name"
+         name="name"
+         type="text"
+         placeholder="enter your name"
+         required><br>
+        <label id="email-label">Email:</label>
+        <input type="email" id="email" min="10"
+         max="99" name="email" placeholder="enter your email" required></input><br>
+          <label id="number-label">Age</label>
+  <input id="number" name="age" type="number"
+  placeholder="enter your age here" min="6" max="100"><br>
+        <select id=dropdown>
+          <option>Do u like the course</option>
+           <option>yes</option>
+            <option>no</option>
+          </select><br>
+          <label for="male"> 
+  <input id="male" value="male" type="radio" name="human">MALE
+</label>
+    <label for="female"> 
+  <input id="female" value="female" type="radio" name="human">FEMALE
+</label>
+           <p>Which are the topics easy to do</p>
+           <label for="read"><input id="topic" type="checkbox" value="cafe coffee" name="Cafe coffee" required>Cafe coffee</label><br>
+           <label for="read"><input id="topic" type="checkbox" value="CAT" name="CAT" required>CAT PAGE</label><br>
+           <label for="read"><input id="topic" type="checkbox" value="form" name="form" required>REGISTRATION FORM</label><br>
+           <label for="read"><input id="topic" type="checkbox" value="colors" name="colors" required>COLORS</label><br>
+           <textarea></textarea><br><br>
+           <button id="submit" value="submit">submit</button>
+        </form>
+      </body>
+  </html>
